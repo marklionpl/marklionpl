@@ -38,3 +38,18 @@ WHERE a=b
 | Paragraph   | Text        |
 
 Next change
+
+## uml: sequence diagram
+Here I will embed PlantUML markup to generate a sequence diagram.
+
+I can include as many plantuml segments as I want in my Markdown, and the diagrams can be of any type supported by PlantUML.
+
+```mermaid
+graph LR
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
+
