@@ -28,3 +28,6 @@ SELECT THIS
 FROM THAT
 WHERE a=b
 ```
+
+## test 2
+![test](assets/image.jpg)
